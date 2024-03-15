@@ -1,0 +1,115 @@
+.navbarsecond {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sectiontag {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    background-image: url(1234.png);
+}
+.maincontainer {
+    color: white;
+    font-family: fantasy;
+    list-style: none;
+}
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    border: 1.5px solid grey;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn {
+    width: 100px;
+    height: 38px;
+    background: #ff7200;
+    border: 2px solid grey;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus {
+    outline: none;
+}
+.srch:focus {
+    outline: none;
+}
+.form {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 250px;
+    background: linear-gradient(to top rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     border-radius: 10px;
+}
+.form h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #fff;
+    font-family: arial;
+}
+ .btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+ }
+ .sectiontag {
+    padding-left: 90px;
+    padding-top: 70px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+ }
+ .sectiontag h1{
+    color: aqua;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-style: oblique;
+ }
+ .sectiontag p {
+    font-style: italic;
+ }
